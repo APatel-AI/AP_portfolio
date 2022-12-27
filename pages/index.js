@@ -42,7 +42,7 @@ export default function Home() {
         <nav className='py-10 mb-12 flex justify-around' alt=""> 
         <ul className='flex items-start' alt="">
         <div className='bg-black rounded-full w-auto h-auto mt-2 mr-auto  dark:bg-transparent dark:rounded-full dark:w-auto dark:h-auto dark:mt-20' alt="">
-          <Image src={arpan}  />
+          <Image src={arpan} alt=""  />
 
         </div>
 
@@ -100,7 +100,7 @@ export default function Home() {
             <h3 className="font-burtons text-3xl text-black-600 gap-11 flex justify-start py-7 dark:text-white">Technical Skills<TfiTimer alt=""/></h3>
 
             <div className="lg:flex gap-10 border pl-40"> 
-              <div className="text-center shadow-2xl p-10 rounded-full w-auto h-auto my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={node} width={100} height ={100}/> </div>
+              <div className="text-center shadow-2xl p-10 rounded-full w-auto h-auto my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={node} alt=""width={100} height ={100}/> </div>
               <div className="text-center shadow-2xl p-10 rounded-full my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={react} width={100} height ={100} alt=""/> </div>
               <div className="text-center shadow-2xl p-10 rounded-full my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={python} width={100} height ={100} alt=""/> </div> 
               <div className="text-center shadow-2xl p-10 rounded-full my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={javascript} width={100} height ={100} alt=""/> </div>
