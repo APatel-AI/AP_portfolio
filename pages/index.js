@@ -9,7 +9,6 @@ import python from '../public/python.png';
 import javascript from '../public/javascript-logo.png';
 import html from '../public/html.png';
 import tail from '../public/tail.png';
-import {TfiTimer} from "react-icons/tfi";
 import next from '../public/next.png'; 
 import ai from '../public/ai.png'; 
 import mc from '../public/MC.png'; 
@@ -88,7 +87,7 @@ export default function Home() {
 
         <section>
           <div className="text-center p-10">
-            <h3 className="font-burtons text-3xl text-black-600 gap-11 flex justify-start py-7 text-black dark:text-white ">Short Summary <TfiTimer alt=""/></h3>
+            <h3 className="font-burtons text-3xl text-black-600 gap-11 flex justify-start py-7 text-black dark:text-white ">Short Summary </h3>
             <p className="text-lg py-1 leading-8 text-gray-800 dark:text-white">
             Detail-oriented professional with a growth mindset, creative thinking skills, commitment to lifelong learning, curiosity, and a vision for future technology applications. Aiming to share my time, raw knowledge, and technical skills in return for more experience in the field and an opportunity to get the company closer to its goals. 
 
@@ -96,7 +95,7 @@ export default function Home() {
           </div>
 
           <div className="text-center p-10">
-            <h3 className="font-burtons text-3xl text-black-600 gap-11 flex justify-start py-7 dark:text-white">Technical Skills<TfiTimer alt=""/></h3>
+            <h3 className="font-burtons text-3xl text-black-600 gap-11 flex justify-start py-7 dark:text-white">Technical Skills</h3>
 
             <div className="lg:flex gap-10 border pl-40"> 
               <div className="text-center shadow-2xl p-10 rounded-full w-auto h-auto my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={node} alt=""width={100} height ={100}/> </div>
