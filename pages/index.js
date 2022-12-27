@@ -130,7 +130,7 @@ export default function Home() {
 
           
             <div className="text-center shadow-lg p-10 rounded-xl my-10"> 
-              <Image  src={front} width={100} height ={100}  className = "center" />
+              <Image  src={front} alt="" width={100} height ={100}  className = "center" />
 
               <h3 className="text-lg font-medium pt-8 pb-2"> Front-End Projects</h3>
               <p className="py-2">
@@ -147,7 +147,7 @@ export default function Home() {
 
           
           <div className="text-center shadow-lg p-10 rounded-xl my-10"> 
-              <Image  src={back} width={100} height ={100}  className = "center" />
+              <Image  src={back} alt="" width={100} height ={100}  className = "center" />
 
               <h3 className="text-lg font-medium pt-8 pb-2">Backend & Full Stack Projects </h3>
               <p className="py-2">
@@ -162,7 +162,7 @@ export default function Home() {
           </div>
 
             <div className='text-center shadow-lg p-10 rounded-xl my-10 ' alt=""> 
-              <Image  src={extra} width={100} height ={100} className = "center" />
+              <Image  src={extra} alt="" width={100} height ={100} className = "center" />
 
               <h3 className='text-lg font-medium pt-8 pb-2' alt=""> Experimental Projects </h3>
               <p className='py-2' alt="">
