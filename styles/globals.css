@@ -29,7 +29,7 @@ a{
   src: url("../public/Burtons.otf");
 }
 
-.main_text {
+.main {
 font-family: Courier, monospace;
 text-align: center;
 padding: 2.5rem;
