@@ -29,12 +29,12 @@ a{
   src: url("../public/Burtons.otf");
 }
 
-.writer {
+.main_text {
 font-family: Courier, monospace;
 text-align: center;
 padding: 2.5rem;
 }
-.writer-text {
+.main_text {
   display: inline-block;
   overflow: hidden;
   letter-spacing: 2px;
@@ -42,7 +42,7 @@ padding: 2.5rem;
   box-sizing: border-box;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: black;
+  color: darkolivegreen;
   font-size: 3rem/* 48px */;
   line-height: 1;
   
