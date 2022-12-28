@@ -96,35 +96,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="text-center p-10">
-            <h3 className="font-burtons text-3xl text-black-600 gap-11 flex justify-start py-7 dark:text-white">Technical Skills</h3>
-
-            <div className="grid-container"> 
-              <div>  <Image  src={node} alt=""width={100} height ={auto}/> </div>
-              <div>  <Image  src={react} width={100} height ={auto} alt=""/> </div>
-              <div>  <Image  src={python} width={100} height ={auto} alt=""/> </div> 
-              <div>  <Image  src={javascript} width={100} height ={auto} alt=""/> </div>
-            
-                      
-              <div>  <Image  src={html} width={100} height ={auto} alt=""/> </div> 
-              <div>  <Image  src={tail} width={100} height ={auto} alt=""/> </div> 
-              <div>  <Image  src={next} width={100} height ={auto} alt=""/> </div> 
-              <div>  <Image  src={ai} width={100} height ={auto} alt=""/> </div> 
-
-            
-
-                       
-              <div>  <Image  src={uiux} width={100} height ={auto} alt=""/> </div> 
-              <div>  <Image  src={mc} width={100} height ={auto} alt=""/> </div> 
-              <div>  <Image  src={oop} width={100} height ={auto} alt=""/> </div>
-              <div>  <Image  src={cicd} width={100} height ={auto} alt=""/> </div>  
-             
-
-              
-              
-
-            </div> 
-          </div>
+         
         
 
        <div className="lg:flex gap-10">
