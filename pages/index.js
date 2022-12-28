@@ -97,31 +97,32 @@ export default function Home() {
           <div className="text-center p-10">
             <h3 className="font-burtons text-3xl text-black-600 gap-11 flex justify-start py-7 dark:text-white">Technical Skills</h3>
 
-            <div className="lg:flex gap-10 border pl-40"> 
+            <div className="grid-container"> 
               <div className="text-center shadow-2xl p-10 rounded-full w-auto h-auto my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={node} alt=""width={100} height ={100}/> </div>
-              <div className="text-center shadow-2xl p-10 rounded-full my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={react} width={100} height ={100} alt=""/> </div>
-              <div className="text-center shadow-2xl p-10 rounded-full my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={python} width={100} height ={100} alt=""/> </div> 
-              <div className="text-center shadow-2xl p-10 rounded-full my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={javascript} width={100} height ={100} alt=""/> </div>
-            </div>
-              <div className="lg:flex gap-10 border pl-40">             
-              <div className="text-center shadow-2xl p-10 rounded-full my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={html} width={100} height ={100} alt=""/> </div> 
-              <div className="text-center shadow-2xl p-10 rounded-full my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={tail} width={100} height ={100} alt=""/> </div> 
-              <div className="text-center shadow-2xl p-10 rounded-full my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={next} width={100} height ={100} alt=""/> </div> 
-              <div className="text-center shadow-2xl p-10 rounded-full my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={ai} width={100} height ={100} alt=""/> </div> 
+              <div>  <Image  src={react} width={100} height ={100} alt=""/> </div>
+              <div>  <Image  src={python} width={100} height ={100} alt=""/> </div> 
+              <div>  <Image  src={javascript} width={100} height ={100} alt=""/> </div>
+            
+                      
+              <div>  <Image  src={html} width={100} height ={100} alt=""/> </div> 
+              <div>  <Image  src={tail} width={100} height ={100} alt=""/> </div> 
+              <div>  <Image  src={next} width={100} height ={100} alt=""/> </div> 
+              <div>  <Image  src={ai} width={100} height ={100} alt=""/> </div> 
 
-              </div>
+            
 
-              <div className="lg:flex gap-10 border pl-40">             
-              <div className="text-center shadow-2xl p-10 rounded-full my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={uiux} width={100} height ={100} alt=""/> </div> 
-              <div className="text-center shadow-2xl p-10 rounded-full my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={mc} width={100} height ={100} alt=""/> </div> 
-              <div className="text-center shadow-2xl p-10 rounded-full my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={oop} width={100} height ={100} alt=""/> </div>
-              <div className="text-center shadow-2xl p-10 rounded-full my-10 self-center dark:bg-gradient-to-b from-yellow-400 ">  <Image  src={cicd} width={100} height ={100} alt=""/> </div>  
+                       
+              <div>  <Image  src={uiux} width={100} height ={100} alt=""/> </div> 
+              <div>  <Image  src={mc} width={100} height ={100} alt=""/> </div> 
+              <div>  <Image  src={oop} width={100} height ={100} alt=""/> </div>
+              <div>  <Image  src={cicd} width={100} height ={100} alt=""/> </div>  
              
 
-              </div>
+              
               
 
             </div> 
+          </div>
         
 
        <div className="lg:flex gap-10">
