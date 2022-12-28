@@ -57,10 +57,10 @@ export default function Home() {
 
         </nav>
 
-        <div className="writer"> 
+        <div className="main"> 
 
       
-          <div className= "writer-text dark:writer-text dark:text-white">Hi I'm Arpan Patel</div>
+          <div className= "main_text dark:main_text  dark:text-white">Hi I'm Arpan Patel</div>
          
 
           <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
