@@ -42,7 +42,7 @@ export default function Home() {
         <nav className='py-10 mb-12 flex justify-around' alt=""> 
         <ul className='flex items-start' alt="">
         <div className='bg-black rounded-full w-auto h-auto mt-2 mr-auto  dark:bg-transparent dark:rounded-full dark:w-auto dark:h-auto dark:mt-20' alt="">
-          <Image src={arpan} alt=""  />
+          <Image src={arpan} height={100} width={100} alt=""  />
 
         </div>
 
