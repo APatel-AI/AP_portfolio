@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import {AiFillGithub, AiFillLinkedin, AiFillYoutube, AiFillInstagram } from 'react-icons/ai';
+import {AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
 import Image from "next/image";
 import deved from '../public/dev-ed-wave.png';
 import arpan from '../public/arpan.png';
