@@ -12,6 +12,12 @@ body{
 
 }
 
+.back{
+  background-color: black;
+  
+}
+
+
 a{
   color: inherit;
   text-decoration: none;
@@ -29,6 +35,16 @@ a{
   src: url("../public/Burtons.otf");
 }
 
+.start{
+  background: #000;
+  opacity: 1;
+  border-radius: 9999px;
+  width: auto;
+  height: auto;
+  margin-top: 0.5rem;
+  margin-right: auto;
+
+}
 .main {
 font-family: Courier, monospace;
 text-align: center;
@@ -70,4 +86,55 @@ padding: 2.5rem;
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+
+
 }
+
+.bulb{
+  display: flex ;
+  align-items: center;
+
+}
+
+@media only screen and (max-width: 400px){
+  .main {
+    font-family: Courier, monospace;
+    text-align: center;
+    padding: 2.5rem;
+  }
+
+  .bulb{
+
+    padding-top: auto; 
+
+  }
+
+
+  .main_text {
+      overflow:hidden;
+      letter-spacing: 2px;
+      white-space: nowrap;
+      box-sizing: border-box;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      color: whitesmoke;
+      font-size: 35px;
+      line-height: 1;
+      
+    }
+    
+   
+
+    .start{
+      background: transparent;
+      opacity: 1;
+      height: auto;
+      margin-left: auto;
+      margin-top: 0.5rem;
+      margin-right: auto;
+      width: fit-content;
+      width: 400px;
+    
+    }
+    }
+    
