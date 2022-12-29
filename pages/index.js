@@ -35,41 +35,43 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/mine.ico" />
       </Head>
-      <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900' alt="">
+      <main className='back dark:bg-gray-900' alt="">
 
         <section className="min-h-screen" alt="">
-
-        <nav className='py-10 mb-12 flex justify-around' alt=""> 
         <ul className='flex items-start' alt="">
-        <div className='bg-black rounded-full w-auto h-auto mt-2 mr-auto  dark:bg-transparent dark:rounded-full dark:w-auto dark:h-auto dark:mt-20' alt="">
-          <Image src={arpan} height={100} width={100} alt=""  />
+        <div className= "start dark:start" alt="">
+          <Image src={arpan}  alt=""  />
 
         </div>
 
         </ul>
+
+        <nav className='py-10 mb-12 flex justify-around' alt=""> 
        
-        <ul className='flex items-center'alt="">
+       
+        <ul className='bulb'alt="">
           
           <li>
-            <GiLightBulb onClick={()=>setDarkMode(!darkMode)} className='cursor-pointer text-2xl dark:bg-yellow-500 rounded-full'alt="" />
+          <GiLightBulb onClick={()=>setDarkMode(!darkMode)}  className=' cursor-pointer bg-white text-2xl dark:bg-yellow-500 rounded-full'alt=""></GiLightBulb>
           </li>
-          <li> <a className='bg-black text-white px-10 py-2 roudned-md ml-8 font' alt="" href='#'>Resume</a></li>
+          
+      
         </ul>
-
+        
 
         </nav>
 
         <div className="main"> 
 
       
-          <div className= "main_text dark:main_text  dark:text-white">Hi I'm Arpan Patel</div>
+          <div className= "py-5 leading-8 text-white md:text-3xl max-w-xl mx-auto dark:main_text  dark:text-white">Hi I'm Arpan Patel</div>
          
 
-          <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
+          <p className="text-md py-5 leading-8 text-white md:text-xl max-w-xl mx-auto dark:text-white">
             Current student with a Life long commitment to Learning, Reasearching, and Experimenting in the field of technology as a 
 
           </p>
-          <h3 className="text-2xl py-2 md:text-3xl dark:text-white"> Developer, Designer, & Engineer </h3>
+          <h3 className="text-white text-2xl py-2 md:text-3xl dark:text-white"> Developer, Designer, & Engineer </h3>
       
         </div>
 
@@ -90,7 +92,7 @@ export default function Home() {
         <section>
           <div className="text-center p-10">
             <h3 className="font-burtons text-3xl text-black-600 gap-11 flex justify-start py-7 text-black dark:text-white ">Short Summary </h3>
-            <p className="text-lg py-1 leading-8 text-gray-800 dark:text-white">
+            <p className="text-lg py-1 leading-8 text-white dark:text-sky-500">
             Detail-oriented professional with a growth mindset, creative thinking skills, commitment to lifelong learning, curiosity, and a vision for future technology applications. Aiming to share my time, raw knowledge, and technical skills in return for more experience in the field and an opportunity to get the company closer to its goals. 
 
             </p>
@@ -130,15 +132,15 @@ export default function Home() {
        <div className="lg:flex gap-10">
 
           
-            <div className="text-center shadow-lg p-10 rounded-xl my-10"> 
+            <div className="text-center shadow-lg p-10 rounded-xl my-10 text-white"> 
               <Image  src={front} alt="" width={100} height ={100}  className = "center" />
 
-              <h3 className="text-lg font-medium pt-8 pb-2"> Front-End Projects</h3>
+              <h3 className="text-lg text-white font-medium pt-8 pb-2"> Front-End Projects</h3>
               <p className="py-2">
                 upload in progress check back soon!
               </p>
               
-              <section className="text-gray-800 py-2">
+              <section className="text-white py-2">
               <p>...</p>
               <p>...</p>
               <p> ... </p>
@@ -147,14 +149,14 @@ export default function Home() {
             </div>
 
           
-          <div className="text-center shadow-lg p-10 rounded-xl my-10"> 
+          <div className="text-center shadow-lg p-10 rounded-xl my-10 text-white"> 
               <Image  src={back} alt="" width={100} height ={100}  className = "center" />
 
-              <h3 className="text-lg font-medium pt-8 pb-2">Backend & Full Stack Projects </h3>
+              <h3 className="text-lg font-medium pt-8 pb-2 text-white">Backend & Full Stack Projects </h3>
               <p className="py-2">
               upload in progress check back soon!              </p>
               
-            <section className="text-gray-800 py-2">
+            <section className="text-white py-2 ">
               <p>...</p>
               <p>...</p>
               <p> ... </p>
@@ -162,15 +164,15 @@ export default function Home() {
             </section>
           </div>
 
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 ' alt=""> 
+            <div className='text-center shadow-lg p-10 rounded-xl my-10 text-white' alt=""> 
               <Image  src={extra} alt="" width={100} height ={100} className = "center" />
 
-              <h3 className='text-lg font-medium pt-8 pb-2' alt=""> Experimental Projects </h3>
+              <h3 className='text-lg font-medium pt-8 pb-2 text-white' alt=""> Experimental Projects </h3>
               <p className='py-2' alt="">
               upload in progress check back soon!
               </p>
               
-            <section className='text-gray-800 py-2' alt="">
+            <section className='text-white py-2' alt="">
               <p>...</p>
               <p>...</p>
               <p> ... </p>
@@ -183,10 +185,10 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className='text-3xl py-1 'alt="">
+            <h3 className='text-3xl py-1 text-white 'alt="">
               Portfolio
             </h3>
-            <p className='text-md py-1 leading-8 text-gray-800 'alt="">
+            <p className='text-md py-1 leading-8 text-white'alt="">
             <h2>upload in progress check back soon!</h2>
             </p>
           </div>
