@@ -3,31 +3,18 @@ import {AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
 import Image from "next/image";
 import deved from '../public/dev-ed-wave.png';
 import arpan from '../public/arpan.png';
-import node from '../public/node.png';
-import react from '../public/react.png';
-import python from '../public/python.png';
-import javascript from '../public/javascript-logo.png';
-import html from '../public/html.png';
-import tail from '../public/tail.png';
-import next from '../public/next.png'; 
-import ai from '../public/ai.png'; 
-import mc from '../public/MC.png'; 
-import oop from '../public/oop.png'; 
-import uiux from '../public/uiux.png'; 
 import front from '../public/front.png';
 import back from '../public/back.png';
 import extra from '../public/extra.png';
-import cicd from '../public/cicd.png';
 import {useState} from "react";
 import {GiLightBulb} from 'react-icons/gi';
+
+
 
 export default function Home() {
   const[darkMode, setDarkMode] = useState(false);
   
- 
   return (
-    
-    
     <div className={darkMode ? "dark":""}>
       <Head>
         <title>Arpan Patel Portfolio</title>
@@ -83,53 +70,63 @@ export default function Home() {
         </div>
  
 
-        <div className="relative mx-auto bg-gradient-to-b  from-yellow-500 rounded-full w-80 h-80 mt-20  overflow-hidden md:h-96 md:w-96 ">
-          <Image src={deved} alt=""/>
-        </div>
+        <div className="relative mx-auto bg-gradient-to-b  from-yellow-500 rounded-full opacity-60 w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 ">     
+        <div className='dev'>
+        <Image src={deved} alt=""/>
+          </div>   </div>
+
+        
+        
         </section>
 
 
         <section>
           <div className="text-center p-10">
-            <h3 className="font-burtons text-3xl text-black-600 gap-11 flex justify-start py-7 text-black dark:text-white ">Short Summary </h3>
-            <p className="text-lg py-1 leading-8 text-white dark:text-sky-500">
-            Detail-oriented professional with a growth mindset, creative thinking skills, commitment to lifelong learning, curiosity, and a vision for future technology applications. Aiming to share my time, raw knowledge, and technical skills in return for more experience in the field and an opportunity to get the company closer to its goals. 
+            <h3 className="font-burtons text-3xl text-black-600 gap-11 flex justify-start py-7 text-white dark:text-white ">Short Summary </h3>
+            <p className="text-md py-5 leading-8 text-white md:text-xl max-w-xl mx-auto dark:text-sky-500">
+              Detail-oriented professional with a growth mindset, creative thinking skills, commitment to lifelong learning, curiosity, and a vision for future technology applications. Aiming to share my time, raw knowledge, and technical skills in return for more experience in the field and an opportunity to get the company closer to its goals. 
 
             </p>
+        
+            
           </div>
 
           <div className="text-center p-10">
-            <h3 className="font-burtons text-3xl text-black-600 gap-11 flex justify-start py-7 dark:text-white">Technical Skills</h3>
-
-            <div className="grid-container"> 
-              <div> <Image  src={node} width={100} height ={100} alt=""/> </div>
-              <div>  <Image  src={react} width={100} height ={100} alt=""/> </div>
-              <div>  <Image  src={python} width={100} height ={100} alt=""/> </div> 
-              <div>  <Image  src={javascript} width={100} height ={100} alt=""/> </div>
-            
-                      
-              <div>  <Image  src={html} width={100} height ={100} alt=""/> </div> 
-              <div>  <Image  src={tail} width={100} height ={100} alt=""/> </div> 
-              <div>  <Image  src={next} width={100} height ={100} alt=""/> </div> 
-              <div>  <Image  src={ai} width={100} height ={100} alt=""/> </div> 
-
-            
-
-                       
-              <div>  <Image  src={uiux} width={100} height ={100} alt=""/> </div> 
-              <div>  <Image  src={mc} width={100} height ={100} alt=""/> </div> 
-              <div>  <Image  src={oop} width={100} height ={100} alt=""/> </div>
-              <div>  <Image  src={cicd} width={100} height ={100} alt=""/> </div>  
-             
-
-              
-              
-
-            </div> 
+            <h3 className="font-burtons text-3xl text-white gap-11 flex justify-start py-7 dark:text-white">Technical Skills</h3>
+          
           </div>
-        
+          <ul className="cloud" role="navigation" aria-label="Webdev word cloud">
+            <li><a href="#" data-weight="4">React</a></li>
+            <li><a href="#" data-weight="1">Node.js</a></li>
+            <li><a href="#" data-weight="5">Django</a></li>
+            <li><a href="#" data-weight="3">Python</a></li>
+            <li><a href="#" data-weight="6">JavaScript</a></li>
+            <li><a href="#" data-weight="4">HTML</a></li>
+            <li><a href="#" data-weight="3">CSS</a></li>
+            <li><a href="#" data-weight="5">Java</a></li>
+            <li><a href="#" data-weight="4">TailWind</a></li>
+            <li><a href="#" data-weight="2">Django</a></li>
+            <li><a href="#" data-weight="1">AI</a></li>
+            <li><a href="#" data-weight="7">UI/UX</a></li>
+            <li><a href="#" data-weight="5">CI/CD</a></li>
+            <li><a href="#" data-weight="4">React</a></li>
+            <li><a href="#" data-weight="1">Node.js</a></li>
+            <li><a href="#" data-weight="5">Django</a></li>
+            <li><a href="#" data-weight="3">Python</a></li>
+            <li><a href="#" data-weight="6">JavaScript</a></li>
+            <li><a href="#" data-weight="4">HTML</a></li>
+            <li><a href="#" data-weight="3">CSS</a></li>
+            <li><a href="#" data-weight="5">Java</a></li>
+            <li><a href="#" data-weight="4">TailWind</a></li>
+            <li><a href="#" data-weight="2">Django</a></li>
+            <li><a href="#" data-weight="1">AI</a></li>
+            <li><a href="#" data-weight="7">UI/UX</a></li>
+            <li><a href="#" data-weight="5">CI/CD</a></li>
 
-       <div className="lg:flex gap-10">
+  
+            </ul>
+           
+       <div className="middle" >
 
           
             <div className="text-center shadow-lg p-10 rounded-xl my-10 text-white"> 
@@ -193,9 +190,6 @@ export default function Home() {
             </p>
           </div>
         </section>
-
-
-        
           
       </main>
     </div>
