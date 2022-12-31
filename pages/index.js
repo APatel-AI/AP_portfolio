@@ -87,7 +87,7 @@ export default function Home() {
         <section>
           <div className="text-center p-10">
             <h3 className="font-burtons text-3xl text-black-600 gap-11 flex justify-start py-7 text-white dark:text-white ">Short Summary </h3>
-            <p className="text-md py-5 spac tracking-widest text-white md:text-xl font-thin max-w-xl mx-auto dark:text-sky-500 dark:text-lg dark:py-5 dark:md:text-xl dark:tracking-widest dark:font-thin dark:max-w-xl dark:mx-auto">
+            <p className="text-md py-5 tracking-widest text-white md:text-xl font-thin max-w-xl mx-auto dark:text-sky-500 dark:text-lg dark:py-5 dark:md:text-xl dark:tracking-widest dark:font-thin dark:max-w-xl dark:mx-auto">
               Detail-oriented professional with a growth mindset, creative thinking skills, commitment to lifelong learning, curiosity, and a vision for future technology applications. Aiming to share my time, raw knowledge, and technical skills in return for more experience in the field and an opportunity to get the company closer to its goals. 
 
             </p>
