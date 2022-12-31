@@ -67,7 +67,7 @@ export default function Home() {
         </div>
 
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-          <a href="https://github.com/ArpanPatel-AI"><button><AiFillGithub alt=""/></button></a>
+          <a href="https://github.com/APatel-AI"><button><AiFillGithub alt=""/></button></a>
           <a href="https://www.linkedin.com/in/arpan-patel-55b7661aa/"><button><AiFillLinkedin alt=""/></button></a>
           <a href="https://www.youtube.com/channel/UCw-AvegYlPesLqSxwAW958A"><button><AiFillYoutube alt=""/></button></a>
 
