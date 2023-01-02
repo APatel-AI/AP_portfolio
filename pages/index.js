@@ -8,7 +8,8 @@ import back from '../public/back.png';
 import extra from '../public/extra.png';
 import {useState} from "react";
 import {GiLightBulb} from 'react-icons/gi';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap'
 
 
 export default function Home() {
@@ -100,32 +101,24 @@ export default function Home() {
           
           </div>
           <ul className="cloud" role="navigation" aria-label="Webdev word cloud">
-            <li><a href="#" data-weight="4">React</a></li>
-            <li><a href="#" data-weight="1">Node.js</a></li>
+            <li><a href="#" data-weight="5">React</a></li>
+            <li><a href="#" data-weight="3">Node.js</a></li>
             <li><a href="#" data-weight="5">Django</a></li>
             <li><a href="#" data-weight="3">Python</a></li>
             <li><a href="#" data-weight="6">JavaScript</a></li>
             <li><a href="#" data-weight="4">HTML</a></li>
+            <li><a href="#" data-weight="6">Machine Learning</a></li>
             <li><a href="#" data-weight="3">CSS</a></li>
             <li><a href="#" data-weight="5">Java</a></li>
             <li><a href="#" data-weight="4">TailWind</a></li>
-            <li><a href="#" data-weight="2">Django</a></li>
-            <li><a href="#" data-weight="1">AI</a></li>
+            <li><a href="#" data-weight="6">AI</a></li>
             <li><a href="#" data-weight="7">UI/UX</a></li>
             <li><a href="#" data-weight="5">CI/CD</a></li>
-            <li><a href="#" data-weight="4">React</a></li>
-            <li><a href="#" data-weight="1">Node.js</a></li>
-            <li><a href="#" data-weight="5">Django</a></li>
-            <li><a href="#" data-weight="3">Python</a></li>
-            <li><a href="#" data-weight="6">JavaScript</a></li>
-            <li><a href="#" data-weight="4">HTML</a></li>
-            <li><a href="#" data-weight="3">CSS</a></li>
-            <li><a href="#" data-weight="5">Java</a></li>
-            <li><a href="#" data-weight="4">TailWind</a></li>
-            <li><a href="#" data-weight="2">Django</a></li>
-            <li><a href="#" data-weight="1">AI</a></li>
-            <li><a href="#" data-weight="7">UI/UX</a></li>
-            <li><a href="#" data-weight="5">CI/CD</a></li>
+            <li><a href="#" data-weight="4">Vite JS</a></li>
+            <li><a href="#" data-weight="5">DSA</a></li>
+            <li><a href="#" data-weight="7">Three.JS</a></li>
+           
+
 
   
             </ul>
@@ -194,6 +187,16 @@ export default function Home() {
             </p>
           </div>
         </section>
+
+        <Container> 
+        <div className ="ratio ratio-16x9">
+          <iframe src="https://www.youtube.com/embed/fCGqito67KA" title='YouTube video' allowFullScreen></iframe>
+        </div>
+
+        </Container>
+
+    
+
           
       </main>
     </div>
