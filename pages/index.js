@@ -127,19 +127,14 @@ export default function Home() {
 
           
             <div className="text-center shadow-lg p-10 rounded-xl my-10 text-white"> 
-              <Image  src={front} alt="" width={100} height ={100}  className = "center" />
 
-              <h3 className="text-lg text-white font-medium pt-8 pb-2"> Front-End Projects</h3>
-              <p className="py-2">
-                upload in progress check back soon!
-              </p>
-              
-              <section className="text-white py-2">
-              <p>...</p>
-              <p>...</p>
-              <p> ... </p>
+              <h2 className="section_title"> Front-End Projects</h2>
+              <Container> 
+                <div className ="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/fCGqito67KA" title='YouTube video' allowFullScreen></iframe>
+                </div>
 
-              </section>
+              </Container>
             </div>
 
           
@@ -188,12 +183,7 @@ export default function Home() {
           </div>
         </section>
 
-        <Container> 
-        <div className ="ratio ratio-16x9">
-          <iframe src="https://www.youtube.com/embed/fCGqito67KA" title='YouTube video' allowFullScreen></iframe>
-        </div>
-
-        </Container>
+       
 
     
 
