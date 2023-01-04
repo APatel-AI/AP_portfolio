@@ -3,13 +3,15 @@ import {AiFillGithub, AiFillLinkedin, AiFillYoutube } from 'react-icons/ai';
 import Image from "next/image";
 import deved from '../public/dev-ed-wave.png';
 import arpan from '../public/arpan.png';
-import front from '../public/front.png';
-import back from '../public/back.png';
-import extra from '../public/extra.png';
 import {useState} from "react";
 import {GiLightBulb} from 'react-icons/gi';
+import {GiPaperTray} from 'react-icons/gi';
+
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap';
+import Carousel from 'react-bootstrap/Carousel';
+
 
 
 export default function Home() {
@@ -125,70 +127,67 @@ export default function Home() {
            
        <div className="middle" >
 
+        
+
           
             <div className="text-center shadow-lg p-10 rounded-xl my-10 text-white"> 
 
-              <h2 className="section_title"> Front-End Projects</h2>
-              <Container> 
-                <div className ="ratio ratio-16x9">
-                    <iframe src="https://www.youtube.com/embed/fCGqito67KA" title='YouTube video' allowFullScreen></iframe>
-                </div>
+              <h1 className="section_title"> Projects</h1>
 
-              </Container>
+
+
+               <Carousel slide={false}>
+                  <Carousel.Item>
+                    <Container> 
+                    <div className ="ratio ratio-16x9">
+                      <iframe src="https://www.youtube.com/embed/ESrKz85GUhk" title='YouTube video' allowFullScreen></iframe>
+                    </div>
+                    </Container>
+                  <Carousel.Caption>
+                      <h1>Commerce</h1>
+                  </Carousel.Caption>
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <Container> 
+                    <div className ="ratio ratio-16x9">
+                      <iframe src="https://www.youtube.com/embed/nf17nBGqVrg" title='YouTube video' allowFullScreen></iframe>
+                    </div>
+                    </Container>
+                    <Carousel.Caption>
+                      <h1>CND Theory </h1>
+                  </Carousel.Caption>
+                  </Carousel.Item>
+
+                  <Carousel.Item>
+                    <Container> 
+                    <div className ="ratio ratio-16x9">
+                      <iframe src="https://www.youtube.com/embed/wd5M6qyaZHM" title='YouTube video' allowFullScreen></iframe>
+                    </div>
+                    </Container>
+                  <Carousel.Caption>
+                      <h1>Mail</h1>
+                  </Carousel.Caption>
+                  </Carousel.Item>
+
+
+                </Carousel>
             </div>
 
+
+          </div>
+        </section>
+        
           
-          <div className="text-center shadow-lg p-10 rounded-xl my-10 text-white"> 
-              <Image  src={back} alt="" width={100} height ={100}  className = "center" />
-
-              <h3 className="text-lg font-medium pt-8 pb-2 text-white">Backend & Full Stack Projects </h3>
-              <p className="py-2">
-              upload in progress check back soon!              </p>
-              
-            <section className="text-white py-2 ">
-              <p>...</p>
-              <p>...</p>
-              <p> ... </p>
-
-            </section>
-          </div>
-
-            <div className='text-center shadow-lg p-10 rounded-xl my-10 text-white' alt=""> 
-              <Image  src={extra} alt="" width={100} height ={100} className = "center" />
-
-              <h3 className='text-lg font-medium pt-8 pb-2 text-white' alt=""> Experimental Projects </h3>
-              <p className='py-2' alt="">
-              upload in progress check back soon!
-              </p>
-              
-            <section className='text-white py-2' alt="">
-              <p>...</p>
-              <p>...</p>
-              <p> ... </p>
-
-            </section>
-            </div>
-      
-
-          </div>
-        </section>
-        <section>
-          <div>
-            <h3 className='text-3xl py-1 text-white 'alt="">
-              Portfolio
-            </h3>
-            <p className='text-md py-1 leading-8 text-white'alt="">
-            <h2>upload in progress check back soon!</h2>
-            </p>
-          </div>
-        </section>
-
-       
-
-    
-
+         
+        <p><GiPaperTray size={40} color={'white'}> </GiPaperTray><h2 className="section_title_2"> Resume </h2>   </p>
+          
+       <p className='box'> <iframe width={1000} height={1000} src="Apatel_Resume.pdf"></iframe> </p> 
+         
           
       </main>
+      
     </div>
+    
   );
 }
