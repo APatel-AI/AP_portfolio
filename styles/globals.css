@@ -50,8 +50,7 @@ body {
 }
 
 .start{
-  background: #000;
-  opacity: 1;
+  background: transparent;
   border-radius: 9999px;
   width: auto;
   height: auto;
@@ -74,17 +73,6 @@ padding: 2.5rem;
   padding-bottom: 0.5rem;
   color: darkolivegreen;
   font-size: 3rem/* 48px */;
-  line-height: 1;
-  
-}
-
-.grid-container{
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 5px;
-  background-color: bisque;
-  padding: 10px;
-
 }
 
 .grid-container > div {
@@ -145,17 +133,19 @@ ul.cloud a {
   --color: rgb(255, 230, 0);
   color: var(--color);
   font-size: calc(var(--size) * 0.25rem + 0.5rem);
-  display: block;
+  display: flex;
   padding: 0.125rem 0.25rem;
   position: relative;
   text-decoration: none;
+  display: flex;
   /* 
   For different tones of a single color
   opacity: calc((15 - (9 - var(--size))) / 15); 
   */
 }
 
-ul.cloud a[data-weight="1"] { --size: 1; }
+
+ul.cloud a[data-weight="1"] { --size: 1;  }
 ul.cloud a[data-weight="2"] { --size: 2; }
 ul.cloud a[data-weight="3"] { --size: 3; }
 ul.cloud a[data-weight="4"] { --size: 4; }
@@ -242,5 +232,31 @@ ul.cloud a:hover::before {
       width: 400px;
     
     }
+
+   
     }
     
+    .section_title{
+      font-family: Garamond,serif;
+      color: white;
+      padding-bottom: 0.5rem;
+      padding-top: 8rem;
+      font-size: 60px;
+
+    }
+    .box {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    .section_title_2{
+      font-family: Garamond,serif;
+      color: white;
+      padding-bottom: 0.5rem;
+      padding-top: 8rem;
+      font-size: 40px;
+      display: inline;
+
+    }
