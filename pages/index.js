@@ -69,7 +69,7 @@ export default function Home() {
       
         </div>
 
-        <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+        <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 ">
           <a href="https://github.com/APatel-AI"><button><AiFillGithub alt=""/></button></a>
           <a href="https://www.linkedin.com/in/arpan-patel-55b7661aa/"><button><AiFillLinkedin alt=""/></button></a>
           <a href="https://www.youtube.com/channel/UCw-AvegYlPesLqSxwAW958A"><button><AiFillYoutube alt=""/></button></a>
@@ -176,14 +176,16 @@ export default function Home() {
 
 
           </div>
-        </section>
-        
-          
+                 
          
         <p><GiPaperTray size={40} color={'white'}> </GiPaperTray><h2 className="section_title_2"> Resume </h2>   </p>
-          
-       <p className='box'> <iframe width={1000} height={1000} src="Apatel_Resume.pdf"></iframe> </p> 
-         
+        
+        <div className="resume_container">
+          <iframe className="responsive-iframe" src="Apatel_Resume.pdf"></iframe>
+        </div>
+        </section>
+        
+   
           
       </main>
       
